@@ -1,0 +1,3 @@
+local-config.vim
+node_modules
+.DS_Store
