@@ -24,7 +24,7 @@ return require("packer").startup(
       "itchyny/lightline.vim",
       config = function()
         -- require "plugins.lightline"
-        vim.cmd [[source $HOME/.config/nvim/vim/lightline.vim]]
+        vim.cmd("source $HOME/.config/nvim/vim/lightline.vim")
       end
     }
     use {
